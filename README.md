@@ -33,31 +33,17 @@ Ce dépôt est organisé de manière à faciliter la navigation et l'utilisation
 
 ```
 LaTeX_Tours/
-├── logos/
-│   └── [logos utilisés dans le document]
-├── images/
-│   └── [images nécessaires pour le document]
-├── Makefile
-├── main.tex
-├── README.md
-└── .gitignore
+├── README.md                # Fichier contenant des informations sur le dépôt, des instructions d'installation et des bonnes pratiques.
+├── .gitignore               # Fichier indiquant les fichiers et dossiers à ignorer par Git lors des commits.
+└── Canva_Universite/        # Dossier principal contenant tous les fichiers liés au projet LaTeX.
+    ├── logos/               # Dossier contenant les logos utilisés dans le document.
+    │   └── [logos utilisés dans le document]  # Fichiers image des logos .
+    ├── images/              # Dossier contenant les images nécessaires pour le document.
+    │   └── [images nécessaires pour le document] # Fichiers image pour la production du rapport.
+    ├── Canva_Tours.pdf      # Fichier PDF généré à partir du code LaTeX, contenant le rapport final.
+    ├── Canva_Tours.tex      # Fichier source LaTeX principal du projet.
+    └── references.bib       # Fichier BibTeX contenant les références bibliographiques utilisées dans le document.
 ```
-
-### Description des fichiers et dossiers :
-
-- **`logos/`** : Ce dossier contient tous les logos nécessaires pour l'insertion dans le document. Assurez-vous de respecter le format et les dimensions requis pour une intégration harmonieuse.
-
-- **`images/`** : Ce dossier renferme toutes les images nécessaires pour enrichir le contenu du document. Comme pour les logos, vérifiez que les images sont au bon format.
-
-- **`Makefile`** : Ce fichier permet d'automatiser le processus de compilation du document LaTeX. Il contient des instructions pour gérer les dépendances et compiler le document de manière efficace.
-
-- **`main.tex`** : C'est le fichier principal de votre projet LaTeX. Il contient le code source du document, y compris les sections, sous-sections et le contenu du rapport.
-
-- **`README.md`** : Ce fichier contient des informations essentielles sur le dépôt, des instructions d'installation, et d'autres ressources utiles pour les utilisateurs.
-
-- **`.gitignore`** : Ce fichier spécifie les fichiers et les dossiers qui doivent être ignorés par Git lors des commits. Cela inclut les fichiers temporaires générés par LaTeX, tels que `.aux`, `.log`, et d'autres fichiers auxiliaires.
-
-Cette structure est conçue pour vous offrir une expérience fluide et organisée lors de la rédaction de votre rapport de stage. Si vous avez des questions ou des besoins spécifiques, n'hésitez pas à consulter le reste de la documentation ou à poser des questions.
 
 ## Prérequis
 
