@@ -42,7 +42,7 @@ LaTeX_Tours/
     │   └── [images nécessaires pour le document] # Fichiers image pour la production du rapport.
     ├── Canva_Tours.pdf      # Fichier PDF généré à partir du code LaTeX, contenant le rapport final.
     ├── Canva_Tours.tex      # Fichier source LaTeX principal du projet.
-    └── references.bib       # Fichier BibTeX contenant les références bibliographiques utilisées dans le document.
+    └── references.bib       # Fichier BibTeX contenant une référence bibliographique utilisée dans le document.
 ```
 
 ## Prérequis
