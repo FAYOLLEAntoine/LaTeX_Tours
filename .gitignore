@@ -1,0 +1,19 @@
+# Ignorer les fichiers temporaires de LaTeX
+*.aux
+*.acn
+*.acr
+*.alg
+*.ist
+*.lof
+*.log
+*.toc
+*.dvi
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.out
+*.bbl
+*.blg
+*.run.xml
+*.xdv
+*.ilg
