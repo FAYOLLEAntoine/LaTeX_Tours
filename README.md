@@ -25,6 +25,7 @@ Ce fichier README vous guidera à travers les étapes d'installation de l'enviro
 4. [Compilation du document avec LaTeX Workshop dans VS Code](#compilation-du-document-avec-latex-workshop-dans-vs-code)
 5. [Bonnes pratiques avec LaTeX Workshop dans VS Code](#bonnes-pratiques-avec-latex-workshop-dans-vs-code)
 6. [Dépannage](#dépannage)
+7. [Contribuer au dépôt](#contribuer-au-dépôt)
 
 ## Structure du dépôt
 
@@ -262,10 +263,6 @@ Si vous rencontrez des erreurs lors de la compilation de votre document LaTeX da
 - Des tutoriels et des guides supplémentaires peuvent être trouvés sur [Overleaf](https://www.overleaf.com/learn), une plateforme en ligne populaire pour LaTeX.
 - Si vous avez des questions ou des problèmes spécifiques, n'hésitez pas à dialoguer avec [ChatGPT](https://chatgpt.com/).
 
-### Auteur Initial
-
-Ce dépôt a été créé par **Antoine FAYOLLE**, ancien étudiant au Master de Physique Théorique - Modèles Non Linéaires à l'Université de Tours. Vous pouvez le trouver sur GitHub à l'adresse [@fayollea](https://github.com/FAYOLLEAntoine).
-
 ## Contribuer au dépôt
 
 Ce dépôt a été conçu pour les étudiants et les enseignants du Master de Physique Théorique - Modèles Non Linéaires de l'Université de Tours. Pour contribuer à ce projet :
@@ -296,5 +293,10 @@ Ce dépôt a été conçu pour les étudiants et les enseignants du Master de Ph
    ```
 
 7. **Créez une Pull Request** : Cliquez sur "New Pull Request" sur votre fork. [Instructions ici](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/creating-a-pull-request).
+
+
+### Auteur Initial
+
+Ce dépôt a été créé par **Antoine FAYOLLE**, ancien étudiant au Master de Physique Théorique - Modèles Non Linéaires à l'Université de Tours. Vous pouvez le trouver sur GitHub à l'adresse [@fayollea](https://github.com/FAYOLLEAntoine).
 
 Merci pour votre aide !
