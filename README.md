@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Bienvenue dans ce dépôt, qui a été spécialement conçu pour les étudiants du Master de Physique Théorique - Modèles Non Linéaires de l'Université de Tours. 
+Bienvenue dans ce dépôt, qui a été spécialement conçu pour les étudiants du Master de Physique Théorique de l'Université de Tours. 
 
 Ce dépôt contient un modèle de document LaTeX, optimisé pour la rédaction de rapports de stage. Vous y trouverez :
 
@@ -53,11 +53,11 @@ Il est nécessaire d'installer un environnement LaTeX. Vous trouverez ci-dessous
 2. Linux [Instructions](#installation-sous-linux)
 3. macOS [Instructions](#installation-sous-macos)
 
-Il est recommandé d'utiliser l'éditeur de code **Visual Studio Code (VS Code)** avec l'extension **LaTeX Workshop** pour une expérience de développement optimisée (plus de détails à ce sujet [ici](#utilisation-de-la-compilation-rapide-dans-visual-studio-code-vs-code-avec-latex-workshop)).
+Il est recommandé d'utiliser l'éditeur de code **Visual Studio Code (VS Code)** avec l'extension **LaTeX Workshop** pour une expérience de développement optimisée (plus de détails à ce sujet [ici](#compilation-du-document-avec-latex-workshop-dans-vs-code)).
 
 ## Installation
 
-Dans cette section, vous trouverez les instructions pour installer LaTeX et les outils nécessaires sur différents systèmes d'exploitation. LaTeX fonctionne en utilisant un éditeur de texte pour écrire votre document, un compilateur pour convertir ce code source en un fichier PDF, et souvent plusieurs packages pour étendre ses fonctionnalités. Que vous utilisiez Windows, Linux ou macOS, des étapes claires et simples vous guideront à travers le processus d'installation de LaTeX, des éditeurs de texte, ainsi que des dépendances requises. À la fin de cette section, nous aborderons l'installation de **make**, qui est nécessaire pour certaines fonctionnalités avancées sur toutes les distributions.
+Dans cette section, vous trouverez les instructions pour installer LaTeX et les outils nécessaires sur différents systèmes d'exploitation. LaTeX fonctionne en utilisant un éditeur de texte pour écrire votre document, un compilateur pour convertir ce code source en un fichier PDF, et souvent plusieurs packages pour étendre ses fonctionnalités. Que vous utilisiez Windows, Linux ou macOS, des étapes claires et simples vous guideront à travers le processus d'installation de LaTeX, des éditeurs de texte, ainsi que des dépendances requises. À la fin de cette section, nous aborderons l'installation de **make**, qui est nécessaire pour certaines fonctionnalités avancées sur toutes les distributions. En cas de **problème** des pistes sont proposées dans la section [**Dépannage**](#dépannage).
 
 ### 1. Installation sous Windows avec WSL
 
@@ -227,7 +227,7 @@ Si vous rencontrez des problèmes lors de l'installation ou de l'utilisation de 
 
 ### 1. Installation de WSL sur Windows
 
-Si vous choisissez d'installer LaTeX via Windows Subsystem for Linux (WSL) et que vous rencontrez des difficultés, assurez-vous d'avoir suivi les étapes d'installation correctement. Voici un lien vers la documentation officielle de Microsoft sur l'installation de WSL : [Installer WSL sur Windows](https://docs.microsoft.com/fr-fr/windows/wsl/install).
+Si vous choisissez d'installer LaTeX via Windows Subsystem for Linux (WSL) et que vous rencontrez des difficultés, assurez-vous d'avoir suivi les étapes d'installation correctement. Voici un lien vers la documentation officielle de Microsoft sur l'installation de WSL : [Installer WSL sur Windows](https://docs.microsoft.com/fr-fr/windows/wsl/install) et [Étapes d’installation manuelle pour les versions antérieures de WSL](https://learn.microsoft.com/fr-fr/windows/wsl/install-manual).
 
 - **Note :** Dans certains cas, il peut être nécessaire d'activer la virtualisation dans le BIOS de votre ordinateur pour que WSL fonctionne correctement. Consultez le manuel de votre carte mère ou le site Web du fabricant pour des instructions sur l'activation de la virtualisation.
 
@@ -251,7 +251,7 @@ Si vous rencontrez des erreurs lors de la compilation de votre document LaTeX da
 
 ## Contribuer au dépôt
 
-Ce dépôt a été conçu pour les étudiants et les enseignants du Master de Physique Théorique - Modèles Non Linéaires de l'Université de Tours. Pour contribuer à ce projet :
+Ce dépôt a été conçu pour les étudiants et les enseignants du Master de Physique Théorique de l'Université de Tours. Pour contribuer à ce projet :
 
 1. **Forkez le dépôt** : Cliquez sur "Fork" en haut à droite. [En savoir plus](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
   
