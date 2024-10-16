@@ -96,7 +96,7 @@ Si vous préférez ne pas utiliser WSL, vous pouvez installer LaTeX directement 
 
 4. Installez **Visual Studio Code** et l'extension **LaTeX Workshop** :
    - Téléchargez VS Code depuis [ce lien](https://code.visualstudio.com/).
-   - Installez l'extension **LaTeX Workshop** depuis le Marketplace intégré dans VS Code.
+   - Installez l'extension [**LaTeX Workshop**](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) depuis le Marketplace intégré dans VS Code.
 
 5. Ouvrez VS Code et configurez-le pour utiliser MiKTeX :
    - Ajoutez MiKTeX au PATH lors de l'installation, ou configurez-le manuellement dans les paramètres de LaTeX Workshop.
@@ -119,18 +119,24 @@ Sous Linux, l'installation est simple grâce au gestionnaire de paquets de votre
 
 ### 4. Installation sous macOS
 
-Sous macOS, l'installation de LaTeX se fait généralement à l'aide de **MacTeX**.
+Sous macOS, l'installation de LaTeX se fait généralement à l'aide d'une application intégrée.
 
 #### Étapes :
 
-1. Téléchargez et installez **MacTeX** depuis [ce lien](https://www.tug.org/mactex/).
-
-2. MacTeX inclut tous les paquets LaTeX nécessaires, ainsi que **TeXShop**, un éditeur LaTeX. Vous pouvez utiliser cet éditeur ou installer **TeXmaker** si vous le préférez :
-   - Téléchargez TeXmaker depuis [ce lien](https://www.xm1math.net/texmaker/).
-
-3. Installez **Visual Studio Code** et l'extension **LaTeX Workshop** :
+1. *Méthode recommandée* : Par une application intégrée
+   - Téléchargez et installez **MacTeX** depuis [ce lien](https://www.tug.org/mactex/).
+   MacTeX inclut tous les paquets LaTeX nécessaires, ainsi que [**TeXShop**](https://pages.uoregon.edu/koch/texshop/), un éditeur LaTeX.
+   - Si vous préférez installer **TeXmaker**, utilisez [ce lien](https://www.xm1math.net/texmaker/).
+   
+3. *Méthode alternative* : Par le gestionnaire de paquets [**Homebrew**](https://brew.sh/), ajoutez une distribution LaTeX :
+   ```bash
+   brew install texlive
+   ```
+   
+4. Installez **Visual Studio Code** et l'extension **LaTeX Workshop** :
    - Téléchargez VS Code depuis [ce lien](https://code.visualstudio.com/).
-   - Installez l'extension **LaTeX Workshop** depuis le Marketplace intégré dans VS Code.
+   - Installez l'extension [**LaTeX Workshop**](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) depuis le Marketplace intégré dans VS Code.
+
 
 ### 5. Installation de `makefile`
 
