@@ -7,7 +7,7 @@ Bienvenue dans ce dépôt, qui a été spécialement conçu pour les étudiants 
 Ce dépôt contient un modèle de document LaTeX, optimisé pour la rédaction de rapports de stage. Vous y trouverez :
 
 - Une mise en page sérieuse et conforme aux attentes académiques.
-- Une variété de commandes LaTeX utiles pour enrichir votre rapport, telles que l'insertion d'équations, de tableaux, et de figures.
+- Une variété de commandes LaTeX utiles pour enrichir votre rapport, telles que l'insertion d'équations, de tableaux et de figures.
 - Des instructions détaillées pour l'installation des outils nécessaires et la compilation du document.
 
 Ce fichier README vous guidera à travers les étapes d'installation de l'environnement LaTeX, l'utilisation d'éditeurs recommandés, et les bonnes pratiques pour optimiser votre expérience de rédaction. Que vous soyez novice en LaTeX ou déjà familiarisé avec cet outil, ce dépôt vous aidera à produire un rapport de stage de haute qualité.
@@ -37,7 +37,7 @@ LaTeX_Tours/
 ├── .gitignore               # Fichier indiquant les fichiers et dossiers à ignorer par Git lors des commits.
 └── Canva_Universite/        # Dossier principal contenant tous les fichiers liés au projet LaTeX.
     ├── logos/               # Dossier contenant les logos utilisés dans le document.
-    │   └── [logos utilisés dans le document]  # Fichiers image des logos .
+    │   └── [logos utilisés dans le document]  # Fichiers image des logos.
     ├── images/              # Dossier contenant les images nécessaires pour le document.
     │   └── [images nécessaires pour le document] # Fichiers image pour la production du rapport.
     ├── Canva_Tours.pdf      # Fichier PDF généré à partir du code LaTeX, contenant le rapport final.
@@ -49,9 +49,9 @@ LaTeX_Tours/
 
 Il est nécessaire d'installer un environnement LaTeX. Vous trouverez ci-dessous les instructions pour installer LaTeX et les paquets requis sur les systèmes suivants : [Installation](#installation).
 
-1. Windows (avec ou sans WSL) [Instructions](#installation-sous-windows-avec-wsl)
-2. Linux [Instructions](#installation-sous-linux)
-3. macOS [Instructions](#installation-sous-macos)
+1. Windows (avec ou sans WSL) [Instructions](#1-installation-sous-windows-avec-wsl)
+2. Linux [Instructions](#3-installation-sous-linux)
+3. macOS [Instructions](#4-installation-sous-macos)
 
 Il est recommandé d'utiliser l'éditeur de code **Visual Studio Code (VS Code)** avec l'extension **LaTeX Workshop** pour une expérience de développement optimisée (plus de détails à ce sujet [ici](#compilation-du-document-avec-latex-workshop-dans-vs-code)).
 
@@ -90,7 +90,7 @@ Si vous préférez ne pas utiliser WSL, vous pouvez installer LaTeX directement 
 
 1. Téléchargez et installez **MiKTeX** depuis [ce lien](https://miktex.org/download).
 
-2. Pendant l'installation, choisissez l'option d'installer les paquets à la demande (on-the-fly), afin que les paquets nécessaires soient automatiquement téléchargés lors de la compilation.
+2. Pendant l'installation, choisissez l'option d'installer les paquets à la demande (*on the fly*), afin que les paquets nécessaires soient automatiquement téléchargés lors de la compilation.
 
 3. Téléchargez et installez **TeXmaker** (un éditeur LaTeX) depuis [ce lien](https://www.xm1math.net/texmaker/).
 
@@ -196,7 +196,7 @@ Dans certains cas, si votre projet utilise une **table d'acronymes** avec le pac
 
 Voici comment faire cela dans **VS Code** :
 
-1. **Ouvrez le terminal intégré dans VS Code** en utilisant `Ctrl + \`` (backtick).
+1. **Ouvrez le terminal intégré dans VS Code** en utilisant ``` Ctrl + ` ``` (backtick).
 2. **Exécutez la commande `makeglossaries`** pour générer ou mettre à jour la table des acronymes :
    ```
    makeglossaries Canva_Tours
@@ -279,12 +279,12 @@ Ce dépôt a été conçu pour les étudiants et les enseignants du Master de Ph
    git commit -m "Description des modifications"
    ```
 
-6. **Poussez vos changements** : [Voir comment pousser](https://docs.github.com/en/get-started/using-git/pushing-changes-to-your-remote-repository).
+6. **Poussez vos changements** : [Voir comment pousser](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository).
    ```
    git push origin nom_de_votre_branche
    ```
 
-7. **Créez une Pull Request** : Cliquez sur "New Pull Request" sur votre fork. [Instructions ici](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/creating-a-pull-request).
+7. **Créez une Pull Request** : Cliquez sur "New Pull Request" sur votre fork. [Instructions ici](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 
 
 ### Auteur Initial
